@@ -351,4 +351,21 @@ footer{
     #education{
         padding:40px 25px;
     }
+
+    /* Add this code here */
+    .about-container{
+        flex-direction:column-reverse;
+        text-align:center;
+        gap:1.5rem;
+    }
+
+    .about-image{
+        flex:0 0 auto;
+    }
+
+    .skills-grid,
+    #projects{
+        grid-template-columns:1fr;
+        gap:1.5rem;
+    }
 }
